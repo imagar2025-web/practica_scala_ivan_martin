@@ -1,0 +1,46 @@
+2026.09.16 10:35:11 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode' for client Visual Studio Code 1.121.0.
+2026.09.16 10:35:11 INFO  Memory monitor started
+2026.09.16 10:35:18 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.16 10:35:39 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.13.0 -jar C:\Users\zeus0\AppData\Local\Temp\metals598036914759661644\sbt-launch.jar -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall'
+2026.09.16 10:35:40 INFO  no build target found for C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:35:40 WARN  no build target for: C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\metals.sbt
+2026.09.16 10:35:40 WARN  no build target for: C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\project\metals.sbt
+2026.09.16 10:35:40 ERROR [info] [launcher] getting org.scala-sbt sbt 1.13.0  (this may take some time)...
+2026.09.16 10:35:46 INFO  no build target found for C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:36:06 ERROR [info] [launcher] getting Scala 2.12.21 (for sbt)...
+2026.09.16 10:36:13 INFO  [info] Updated file C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\build.properties: set sbt.version to 1.13.0
+2026.09.16 10:36:13 INFO  [info] welcome to sbt 1.13.0 (Eclipse Adoptium Java 17.0.20.1)
+2026.09.16 10:36:25 INFO  [info] loading settings for project scala-vscode-build-build from metals.sbt...
+2026.09.16 10:36:30 INFO  [info] loading project definition from C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\project
+2026.09.16 10:36:42 INFO  [info] loading settings for project scala-vscode-build from metals.sbt...
+2026.09.16 10:36:42 INFO  [info] loading project definition from C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project
+2026.09.16 10:37:04 INFO  [success] Generated .bloop\scala-vscode-build.json
+2026.09.16 10:37:04 INFO  [success] Total time: 21 s, completed 16 sept 2026 10:37:05
+2026.09.16 10:37:10 INFO  [info] loading settings for project scala-vscode from build.sbt...
+2026.09.16 10:37:10 INFO  [info] set current project to scala-vscode (in build file:/C:/Users/zeus0/Desktop/Proyecto_Practica_1_Scala/scala-vscode/)
+2026.09.16 10:37:12 INFO  [success] Generated .bloop\scala-vscode.json
+2026.09.16 10:37:12 INFO  [success] Generated .bloop\scala-vscode-test.json
+2026.09.16 10:37:12 INFO  [success] Total time: 1 s, completed 16 sept 2026 10:37:12
+2026.09.16 10:37:13 INFO  time: ran 'sbt bloopInstall' in 1m33s
+2026.09.16 10:37:13 INFO  Attempting to connect to the build server...
+2026.09.16 10:37:13 INFO  No running Bloop server found, starting one.
+2026.09.16 10:37:30 INFO  Starting compilation server
+2026.09.16 10:37:35 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\.metals\bsp.trace.json or C:\Users\zeus0\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.16 10:37:40 INFO  Attempting to connect to the build server...
+2026.09.16 10:37:40 INFO  Found a Bloop server running
+2026.09.16 10:37:40 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\zeus0\Desktop\Proyecto_Practica_1_Scala\scala-vscode\project\.metals\bsp.trace.json or C:\Users\zeus0\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.16 10:37:40 INFO  time: Connected to build server in 27s
+2026.09.16 10:37:40 INFO  Connected to Build server: Bloop v2.1.2
+2026.09.16 10:37:41 INFO  time: Imported build in 0.46s
+sept 16, 2026 10:37:51 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.09.16 10:37:57 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+sept 16, 2026 10:37:59 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.09.16 10:39:14 INFO  time: indexed workspace in 1m33s
+2026.09.16 10:57:00 INFO  Shutting down server
+2026.09.16 10:57:00 INFO  Memory monitor stopped
+2026.09.16 10:57:00 INFO  shutting down Metals
+2026.09.16 10:57:00 INFO  Shut down connection with build server.
+2026.09.16 10:57:00 INFO  Shut down connection with build server.
+2026.09.16 10:57:00 INFO  Exiting server
