@@ -86,17 +86,17 @@ Instalamos almond kernel:
 Comprobamos la lista de kernels de jupyter:
 
 - `jupyter kernelspec list`
-  ![comprobacion_kernel](../img/jupyter/comprobacion_kernel.png)
+  ![comprobacion_kernel](img/jupyter/comprobacion_kernel.png)
 
 **2.5 Ejecutar código Scala**
 Ahora en el labs seleccionaremos la opcion de `file -> new -> notebook -> scala`
 
-![comprobacion_kernel](../img/jupyter/seleccion_kernel.png)
+![comprobacion_kernel](img/jupyter/seleccion_kernel.png)
 
 Ahora estas son las evidencias de que todo lo anterior ha funcionado:
-![1](../img/jupyter/ejer1.png)
-![2](../img/jupyter/ejer2.png)
-![3](../img/jupyter/ejer3.png)
+![1](img/jupyter/ejer1.png)
+![2](img/jupyter/ejer2.png)
+![3](img/jupyter/ejer3.png)
 
 ### 1.2 Entorno 2 — Visual Studio Code + Metals + Scala 2.12.21 + JDK 17 + sbt
 
@@ -123,7 +123,7 @@ Comprobamos tambien con el comando de `javac -version`:
 Una vez instalado mediante su enlace oficial vs code iremos al apartado de extensiones y buscaremos la palabra de Metals y la instalamos.
 
 Comprobación de sbt mediante `sbt --version`:
-![version](../img/vs_code/versionsbt.png)
+![version](img/vs_code/versionsbt.png)
 
 **Proyecto Scala**
 Creación de un proyecto scala con la siguiente estructura de datos:
@@ -141,17 +141,17 @@ scala-vscode/
 Resultando asi la siguente estructura de proyecto:
 
 Configuramos scala en el archivo `build.sbt`:
-![build](../img/vs_code/build.png)
+![build](img/vs_code/build.png)
 
 Creamos un pequeño programa en `Main.scala`:
-![main](../img/vs_code/main.png)
+![main](img/vs_code/main.png)
 
 **Importacion y compilacion del proyecto con metals**
 Al abrir la carpeta del proyecto se han instalado los archivos de metals detectando el proyecto automaticamente:
-![metals](../img/vs_code/metals.png)
+![metals](img/vs_code/metals.png)
 Ahora vamos a compilar el proyecto `sbt compile` y ejecutarlo con `sbt run`:
-![metals](../img/vs_code/compile.png)
-![metals](../img/vs_code/run.png)
+![metals](img/vs_code/compile.png)
+![metals](img/vs_code/run.png)
 
 # 1.3 Entorno 3 — IntelliJ IDEA Community + Scala 2.12.21 + sbt
 
@@ -191,7 +191,7 @@ Al iniciar IntelliJ IDEA se muestra la interfaz principal del programa desde la 
 
 **Captura 1:** IntelliJ IDEA Community Edition instalado y abierto.
 
-![IDEA](../img/intellij/1.png)
+![IDEA](img/intellij/1.png)
 
 ## 2. Instalar el soporte para Scala
 
@@ -210,42 +210,42 @@ Desde IntelliJ IDEA se ha accedido al apartado de plugins y se ha buscado el plu
 Scala
 ```
 
-![plugins](../img/intellij/2.png)
+![plugins](img/intellij/2.png)
 
 ## 3. Configurar JDK 17
 
 lo configuramos del projecto dejando que nos lo instale el propio configurador del proyecto
 
-![plugins](../img/intellij/3.png)
+![plugins](img/intellij/3.png)
 
 ## 4 Crear un proyecto Sbt
 
 Seleccionamos el nombre y la opción de sbt para la configuración de nuestro proyecto
 
-![estructura](../img/intellij/4.png)
+![estructura](img/intellij/4.png)
 
 ## 5 Revisión del archivo build
 
 comprobamos que la version y el nombre son correcto s
 
-![build](../img/intellij/6.png)
+![build](img/intellij/6.png)
 
 ## 6 Creación del programa
 
-![main](../img/intellij/7.png)
+![main](img/intellij/7.png)
 
 ## 7 Ejecución del IDEA
 
-![ejecucion](../img/intellij/10.png)
+![ejecucion](img/intellij/10.png)
 
 ## 8 Compilacion sbt
 
 debemos configurarlo en la consola de sbt propia del idea
 
-![build](../img/intellij/8.png)
+![build](img/intellij/8.png)
 
 ## 9 Ejecucion sbt
 
 igual que el paso previo
 
-![run](../img/intellij/9.png)
+![run](img/intellij/9.png)
