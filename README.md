@@ -29,3 +29,13 @@ IntelliJ IDEA Community + sbt
 ## Parte 2 — Programación con Scala
 
 [Ver Parte 2](Proyecto_Practica2_Scala/README.md)
+
+# Parte 3 — Mini proyectos
+
+## Parte 3.1 — Visual Studio Code + Metals + sbt
+Mini proyecto: Clasificador de resultados de un torneo de Twenty-One.
+Ver Parte 3.1
+
+## Parte 3.2 — IntelliJ IDEA + sbt
+Mini proyecto: Analizador de calificaciones de un grupo.
+[Ver Parte 3.2]()
