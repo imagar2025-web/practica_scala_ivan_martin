@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\Ivi_dev\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "G:\\Mi unidad\\MASTER IA Y BIG DATA\\BIG_DATA\\Practica_Escala\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "G:\\Mi unidad\\MASTER IA Y BIG DATA\\BIG_DATA\\Practica_Escala\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "G:\\Mi unidad\\MASTER IA Y BIG DATA\\BIG_DATA\\Practica_Escala\\.scala-build\\ide-envs.json",
+    "G:\\Mi unidad\\MASTER IA Y BIG DATA\\BIG_DATA\\Practica_Escala"
+  ],
+  "version": "1.17.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
