@@ -33,5 +33,5 @@ sbt run
 
 ## Resultados
 
-[Ver documentacion de la parte 3]()
+[Ver documentacion de la parte 3](Practica%201%20-%20Parte%203%20Mini%20proyectos%20en%20entornos%20.md)
 Se han realizado las actividades propuestas a lo largo de todo el proyecto de la parte 3 de scala.

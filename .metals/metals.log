@@ -20,3 +20,83 @@
 2026.09.21 16:17:37 INFO  time: indexed workspace in 5.71s
 2026.09.21 16:17:39 INFO  compiling practica_escala_41e103cfb2 (2 scala sources)
 2026.09.21 16:17:39 INFO  time: compiled Practica_Escala_41e103cfb2 in 0.48s
+2026.09.21 16:33:12 INFO  Shutting down server
+2026.09.21 16:33:12 INFO  Memory monitor stopped
+2026.09.21 16:33:12 INFO  shutting down Metals
+2026.09.21 16:33:12 INFO  BSP server: Sep 21, 2026 4:33:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.09.21 16:33:12 INFO  Shut down connection with build server.
+2026.09.21 16:33:12 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.09.21 16:33:12 INFO  BSP server:   "jsonrpc": "2.0",
+2026.09.21 16:33:12 INFO  BSP server:   "method": "build/exit",
+2026.09.21 16:33:12 INFO  BSP server:   "params": null
+2026.09.21 16:33:12 INFO  BSP server: }
+2026.09.21 16:33:12 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.09.21 16:33:12 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.09.21 16:33:12 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.09.21 16:33:12 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.09.21 16:33:12 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.09.21 16:33:12 INFO  BSP server: 	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2026.09.21 16:33:12 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.21 16:33:12 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.21 16:33:12 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.09.21 16:33:12 INFO  BSP server: 	at java.base@17.0.9/java.lang.reflect.Method.invoke(Method.java:568)
+2026.09.21 16:33:12 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.09.21 16:33:12 INFO  BSP server: 	... 13 more
+2026.09.21 16:33:12 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.09.21 16:33:12 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.09.21 16:33:12 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.09.21 16:33:12 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:474)
+2026.09.21 16:33:12 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2026.09.21 16:33:12 INFO  BSP server: 	... 15 more
+2026.09.21 16:33:12 INFO  BSP server: 
+2026.09.21 16:33:12 INFO  Exiting server
+2026.09.21 16:52:58 INFO  Started: Metals version 1.6.9 in folders 'G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala' for client Visual Studio Code 1.138.0.
+2026.09.21 16:52:58 INFO  Memory monitor started
+2026.09.21 16:53:07 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.21 16:53:13 INFO  Attempting to connect to the build server...
+2026.09.21 16:53:13 INFO  Running BSP server List(C:\Users\Ivi_dev\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.scala-build\ide-options-v2.json, --json-launcher-options, G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.scala-build\ide-launcher-options.json, --envs-file, G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.scala-build\ide-envs.json, G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala)
+2026.09.21 16:53:13 ERROR Running process 'C:\Users\Ivi_dev\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.scala-build\ide-options-v2.json --json-launcher-options G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.scala-build\ide-launcher-options.json --envs-file G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.scala-build\ide-envs.json G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala' failed
+java.io.IOException: Cannot run program "C:\Users\Ivi_dev\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.09.21 16:53:13 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at G:\Mi unidad\MASTER IA Y BIG DATA\BIG_DATA\Practica_Escala\.metals\bsp.trace.json or C:\Users\zeus0\AppData\Local\scalameta\metals\cache\bsp.trace.json
