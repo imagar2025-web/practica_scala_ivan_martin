@@ -33,4 +33,5 @@ sbt run
 
 ## Resultados
 
+[Ver documentacion de la parte 3]()
 Se han realizado las actividades propuestas a lo largo de todo el proyecto de la parte 3 de scala.
