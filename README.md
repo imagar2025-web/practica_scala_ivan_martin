@@ -38,4 +38,4 @@ Ver Parte 3.1
 
 ## Parte 3.2 — IntelliJ IDEA + sbt
 Mini proyecto: Analizador de calificaciones de un grupo.
-[Ver Parte 3.2]()
+[Ver Parte 3]()
